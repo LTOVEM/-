@@ -1,0 +1,30 @@
+//
+//  jtg.pch
+//  JTG
+//
+//  Created by LTOVE on 15/11/18.
+//  Copyright (c) 2015年 LTOVE. All rights reserved.
+//
+
+#ifndef JTG_jtg_pch
+#define JTG_jtg_pch
+
+#import "UIView+Frame.h"
+#import "UIImage+Resizable.h"
+
+#define GoogsCellMaginX 10
+#define GoogsCellHeight 80
+
+#define screenW [UIScreen mainScreen].bounds.size.width
+#define GWBadgeValueTitleFont [UIFont systemFontOfSize:11]
+
+#define JTGViewProTextViewFont [UIFont systemFontOfSize:12]
+#define JTGViewProTextViewTitleFont [UIFont systemFontOfSize:15]
+
+#define GWColor(r,g,b,alph) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(alph)]
+
+#define cs NSLog(@"%s",__func__);
+
+#define accoubt @"xc"
+
+#endif

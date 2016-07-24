@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JTGProfileViewController">
+            <connections>
+                <outlet property="view" destination="ijr-7m-aGR" id="ezD-cR-1E8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ijr-7m-aGR">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3x-Jo-9x2">
+                    <rect key="frame" x="0.0" y="89" width="320" height="35"/>
+                    <color key="backgroundColor" red="0.45490196078431372" green="0.94901960784313721" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="更新账户">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="upUname:" destination="-1" eventType="touchUpInside" id="fsb-Wg-Sno"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiW-XD-CYW">
+                    <rect key="frame" x="0.0" y="132" width="320" height="30"/>
+                    <color key="backgroundColor" red="0.45490196078431372" green="0.94901960784313721" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="退出登录">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="loginOut:" destination="-1" eventType="touchUpInside" id="v1p-T9-HYo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ze-Ga-WDK">
+                    <rect key="frame" x="0.0" y="51" width="320" height="30"/>
+                    <color key="backgroundColor" red="0.45098039215686275" green="0.95294117647058818" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="5hN-HK-GJr"/>
+                    </constraints>
+                    <state key="normal" title="更新地址">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="upAd:" destination="-1" eventType="touchUpInside" id="CEB-Fw-niF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8ze-Ga-WDK" secondAttribute="trailing" id="2bC-Pt-Q5b"/>
+                <constraint firstItem="8ze-Ga-WDK" firstAttribute="top" secondItem="ijr-7m-aGR" secondAttribute="top" constant="8" id="K30-V1-E73"/>
+                <constraint firstItem="8ze-Ga-WDK" firstAttribute="top" secondItem="ijr-7m-aGR" secondAttribute="top" constant="51" id="cW1-3X-tgR"/>
+                <constraint firstItem="8ze-Ga-WDK" firstAttribute="leading" secondItem="ijr-7m-aGR" secondAttribute="leading" id="shb-ka-Xi9"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="K30-V1-E73"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="794" y="27"/>
+        </view>
+    </objects>
+</document>
