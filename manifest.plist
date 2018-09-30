@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://www.ltove.com/qianxun.ipa</string>
+					<string>http://10.37.251.251:10690/qxIOS/qianxun.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>http://www.ltove.com/qianxun_57.png</string>
+					<string>http://10.37.251.251:10690/qxIOS/qianxun_57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>http://www.ltove.com/qianxun_512.png</string>
+					<string>http://10.37.251.251:10690/qxIOS/qianxun_512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
