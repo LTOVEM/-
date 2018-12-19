@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://dev-qxfile.qdingnet.cn/group1/M00/00/0E/Cidda1wPgpCAMJs_AoRHpV3XADs987.ipa</string>
+					<string>http://10.39.93.104:8089/api/download/iosDownload</string>
 				</dict>
 				<dict>
 					<key>kind</key>
