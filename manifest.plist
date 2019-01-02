@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://qx-files.qdingnet.com/Fl7sdrwgpRBDeeV1Bqo1hm27ggdQ.png?imageView2/1/w/57/h/57&e=1577952359&token=b3PHmqkwGyXkPx4RtezKBcytB1PNpTqEYIeQc-XC:7Cy2BLuZuZa78mMe68glKFdtEo8=</string>
+					<string>http://10.37.251.251:10690/qxIOS/qianxun_57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://qx-files.qdingnet.com/Fl7sdrwgpRBDeeV1Bqo1hm27ggdQ.png?imageView2/1/w/512/h/512&e=1577952245&token=b3PHmqkwGyXkPx4RtezKBcytB1PNpTqEYIeQc-XC:J3XqTglime1-SC-nJZGooi-YW_A=</string>
+					<string>http://10.37.251.251:10690/qxIOS/qianxun_512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
