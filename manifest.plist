@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://dev-qxapi.qdingnet.com/api/download/iosDownload</string>
+					<string>http://dev-qxapi.qdingnet.com/download/iosDownload</string>
 				</dict>
 				<dict>
 					<key>kind</key>
